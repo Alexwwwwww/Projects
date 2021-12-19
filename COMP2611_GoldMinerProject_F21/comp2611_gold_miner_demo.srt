@@ -1,0 +1,47 @@
+﻿1
+00:00:00,000 --> 00:00:07,000
+Start the game by configure and play
+
+2
+00:00:07,000 --> 00:00:12,000
+Press the space bar to shoot the hook
+
+3
+00:00:12,000 --> 00:00:18,000
+Press "D" to throw a dynamite to destroy any minerals
+
+4
+00:00:18,000 --> 00:00:30,000
+Collect valuable minerals to attain the level's target and go to the next level
+
+5
+00:00:30,000 --> 00:00:35,000
+Gold is worth $500 and Gem $1500
+
+6
+00:00:35,000 --> 00:00:42,000
+The hook should swing in a pendulum
+
+7
+00:00:42,000 --> 00:00:48,000
+It should start rewinding when it hits the boundaries
+
+8
+00:00:48,000 --> 00:00:54,000
+Complete three levels to win the game
+
+9
+00:00:54,000 --> 00:01:04,000
+Now is a demonstration for a failure case
+
+10
+00:01:04,000 --> 00:01:14,000
+The game is lost if the timer is up at any level
+
+1
+00:01:14,000 --> 00:01:24,000
+Recrawling a stone and missing a shot are the main losing reasons
+
+12
+00:01:24,000 --> 00:02:20,000
+You may skip to the end to see what happens if the timer runs up
