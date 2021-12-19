@@ -1,0 +1,20 @@
+a<-read.table("concrete_data.csv", head=T,sep=',',fileEncoding = 'UTF-8')
+a
+#concrete_data=read.csv(file="concrete_data.csv",header=FALSE)
+#concrete_data$group=as.factor(rep(c("1","2","3","4","5"),each=6))
+total=c(a$X1,a$X2,a$X3,a$X4,a$X5)
+group=as.factor(rep(c("A","B","C","D","E"),each=6))
+oneway.test(total~group)
+#total_mean=mean(total)
+#mean1=mean(a$X1)
+#mean2=mean(a$X2)
+#mean3=mean(a$X3)
+#mean4=mean(a$X4)
+#mean5=mean(a$X5)
+#n=30
+#k=5
+#Vec_mean=c(mean1,mean2,mean3,mean4,mean5)
+#MST=var(Vec_mean)
+#MSE=var(total)*(n-1)/(n-k)*6
+#Fval=MST/MSE
+#f_critical=qf(0.97,k-1,n-k)
